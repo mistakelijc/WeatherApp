@@ -19,7 +19,7 @@ Android 8.0（API 26）及以上；构建需要 Android SDK 36、Build Tools 36.
 
 命令行可执行 `./gradlew :app:assembleDebug`，APK 输出至 `app/build/outputs/apk/debug/app-debug.apk`。
 
-## 架构与取舍
+## 架构
 
 单模块、构造函数注入和手动依赖容器，按职责分包，避免为小型应用增加不必要的层级。
 
