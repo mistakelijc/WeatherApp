@@ -15,6 +15,9 @@
 
 Android 8.0（API 26）及以上；构建需要 Android SDK 36、Build Tools 36.0.0，以及兼容的 JDK 17 或更高版本。
 
+使用 Android Studio 打开项目根目录，配置 Android SDK，完成 Gradle 同步后运行 `app`。
+
+命令行可执行 `./gradlew :app:assembleDebug`，APK 输出至 `app/build/outputs/apk/debug/app-debug.apk`。
 
 ## 架构与取舍
 
